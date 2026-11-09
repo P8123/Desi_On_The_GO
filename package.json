@@ -1,0 +1,16 @@
+{
+  "name": "desi-on-the-go-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently --shell \"C:\\Windows\\System32\\cmd.exe\" -n \"FRONTEND,BACKEND\" -c \"cyan,green\" \"npm --prefix frontend run dev\" \"uvicorn app.main:app --reload --app-dir backend\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "concurrently": "^10.0.7"
+  }
+}

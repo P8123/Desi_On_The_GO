@@ -1,0 +1,11 @@
+{
+  "title":"Desi On The Go",
+  "description": "Enables users to sign up and create a basic social media profile focused on sharing food place experiences with personalized details and photos.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

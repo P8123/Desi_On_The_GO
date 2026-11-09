@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'Poppins', sans-serif;
+  --font-display: 'Playfair Display', serif;
+  --color-brand-orange: #E8650A;
+  --color-brand-orange-dark: #C5530A;
+  --color-brand-orange-light: #F5843A;
+  --color-off-white: #F0EDE8;
+  --color-off-white-dark: #E4E0D8;
+  --color-ink: #1A1A1A;
+  --color-ink-muted: #555555;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #F0EDE8;
+}
+
+input:focus {
+  outline: none;
+}
+
+/* Hide scrollbar but allow scrolling */
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #E8650A44;
+  border-radius: 2px;
+}
